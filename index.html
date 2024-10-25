@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRANCOPET</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">MORATOPET</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-petshop" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o petshop
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#variedade" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Para todos os pets
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#area-pet" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Área pet
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-petshop">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/imagens/slides/resized_MoratoPet_Exterior.png" alt="Foto do espaço externo da loja">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/imagens/slides/resized_MoratoPet_Interior.png" alt="Foto do espaço interno da loja">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/imagens/slides/resized_MoratoPet_Aquarium.png" alt="Foto do espaço aquarismo da loja">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon text-colored "></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon text-colored "></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active"  data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/imagens/slides/DALL·E 2024-10-23 23.10.33 - A modern pet store with the name 'MoratoPet' on the sign. The store should have a welcoming entrance with glass doors, colorful pet-themed decor, and .webp" class="d-block w-100 rounded" alt="Foto espaço externo da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored ">o petshop</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque architecto delectus accusantium possimus perspiciatis odit assumenda fugiat consequuntur quidem, debitis quia sit! Pariatur sunt itaque, eaque deserunt nihil et magni!
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored ">as variedades de produtos</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, sequi veniam aperiam, nobis nihil adipisci qui, beatae pariatur perspiciatis nemo omnis quidem? Maiores, laudantium eius! Consequatur velit fugiat esse nam!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="variedade" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todos <span class="text-colored ">os pets</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/imagens/slides/resized_MoratoPet_Aquarium.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aquarismo
+                        </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur autem sed illum magnam numquam pariatur hic sint eligendi cupiditate asperiores nostrum fugit, porro dicta nulla et beatae? Cum, similique quam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/imagens/marcas_parceiras/8-pet-shop-simples-com-produtos-para-vender.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Cachorro e gato
+                        </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur autem sed illum magnam numquam pariatur hic sint eligendi cupiditate asperiores nostrum fugit, porro dicta nulla et beatae? Cum, similique quam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/imagens/marcas_parceiras/passaros-01.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Pássaros
+                        </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur autem sed illum magnam numquam pariatur hic sint eligendi cupiditate asperiores nostrum fugit, porro dicta nulla et beatae? Cum, similique quam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="area-pet" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Produtos</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-areapet">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cachorro" class="fw-bold text-start nav-link active">Ração de cachorro</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#gato" class="fw-bold text-start nav-link">Ração de gato</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#passaro" class="fw-bold text-start nav-link">Pássaros</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#aquarismo" class="fw-bold text-start nav-link">Aquarismo</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link">Acessórios</button>
+                    </nav>                    
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="cachorro">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/1656092373037.jpg" alt="Premier"/>
+                                    <h5 class="text-colored fw-bold mt-2">Premier golden retriever</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/1669836951520.jpg" alt="Premier"/>
+                                    <h5 class="text-colored fw-bold mt-2">Premier golden retriever filhote</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/1708614057884.jpg" alt="golden"/>
+                                    <h5 class="text-colored fw-bold mt-2">Golden special</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/1711557411844.jpg" alt="Royal"/>
+                                    <h5 class="text-colored fw-bold mt-2">Royal canin light</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/pate.jpg" alt="Kitchen"/>
+                                    <h5 class="text-colored fw-bold mt-2">Kitchen patê</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/sache.jpg" alt="granplus"/>
+                                    <h5 class="text-colored fw-bold mt-2">GranPlus sache</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="gato">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/1656094961537.jpg" alt="Premier"/>
+                                    <h5 class="text-colored fw-bold mt-2">Premier gato castrado</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="/imagens/area_pet/1712234658522.jpg" alt="Formula natural"/>
+                                    <h5 class="text-colored fw-bold mt-2">Formula natural gato</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+            </div>
+            <div class="tab-pane" id="passaro">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="/imagens/area_pet/passaro.jpg" alt="Reino das aves"/>
+                        <h5 class="text-colored fw-bold mt-2">Reino das aves</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="/imagens/area_pet/passaro3.jpg" alt="Nutropica"/>
+                        <h5 class="text-colored fw-bold mt-2">Nutropica</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="/imagens/area_pet/passaro2.jpg" alt="Calopsita"/>
+                        <h5 class="text-colored fw-bold mt-2">Calopsita zootekna</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="/imagens/area_pet/passaro4.jpg" alt="Nutropica"/>
+                        <h5 class="text-colored fw-bold mt-2">Nutropica</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+</div>
+<div class="tab-pane" id="aquarismo">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/aquario_200l.jpg" alt="Aquario 200l"/>
+            <h5 class="text-colored fw-bold mt-2">Aquário 200Lts</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/carvao_ativado.jpg" alt="Carvão ativado"/>
+            <h5 class="text-colored fw-bold mt-2">Carvão ativado</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/filtro_externo.jpg" alt="Filtro externo"/>
+            <h5 class="text-colored fw-bold mt-2">Filtro externo</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/holiday_alcon.jpg" alt="Holiday alcon"/>
+            <h5 class="text-colored fw-bold mt-2">Holiday alcon</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/nutricon.jpg" alt="nutricon"/>
+            <h5 class="text-colored fw-bold mt-2">nutricon</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/la_acrilica.jpg" alt="Lã acrilica"/>
+            <h5 class="text-colored fw-bold mt-2">Lã acrilica</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="tab-pane" id="acessorios">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/roupa_pet.jpg" alt="Roupa pet"/>
+            <h5 class="text-colored fw-bold mt-2">Roupa pet</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="/imagens/area_pet/caixa_transporte.jpg" alt="Caixa de transporte"/>
+            <h5 class="text-colored fw-bold mt-2">Caixa de transporte</h5>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+    </div>
+</div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="text" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

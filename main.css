@@ -1,0 +1,75 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #4e4c4a;
+}
+
+#cardapio,
+#fale-conosco {
+    padding-left: 290px;  
+    /*
+    tive que colocar porque no html estava colocando pt-5 pb-5 não estava espaçando.
+    */
+} 
+
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #d6822e;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-variedade .nav-link.active:hover {
+    color: #f0dbbc;
+}
+
+.navbar-toggler {
+    background-color: #d3a454;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-petshop, #variedade {
+    background-color: #fdecc9;
+}
+
+.text-colored {
+    color: #da9d24;
+}
+
+.nav-areapet .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(139, 100, 55);
+    color: #f3e9da;
+}
+
+.nav-areapet .nav-link {
+    color: rgb(71, 69, 66);
+}
+
+.nav-areapet .nav-link:hover {
+    color: rgb(235, 173, 122);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
